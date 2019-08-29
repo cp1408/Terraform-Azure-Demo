@@ -1,10 +1,10 @@
 variable "resource-group-name" {
-  default = "terraform-resource-group"
+  default = "terraform-resource-group-cp"
   description = "The prefix used for all resources in this example"
 }
 
 variable "app-service-name" {
-  default = "terraform-app-service"
+  default = "terraform-app-service-cp"
   description = "The name of the Web App"
 }
 
